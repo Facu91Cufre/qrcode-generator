@@ -83,6 +83,12 @@ p{
     background-color: rgb(42, 167, 98);
 }
 
+.error{
+    text-align: center;
+    font-size: 1.2rem;
+    color: red;
+}
+
 
 
 
