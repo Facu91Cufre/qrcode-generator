@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap");
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Truculenta", sans-serif;
+}
+
+/* Body Styles */
+
+body {
+  background-color: rgb(42, 127, 98);
+}
+
+/* Container Styles */
+
+.container {
+  background-color: rgb(223, 217, 226);
+  position: absolute;
+  width: 400px;
+  padding: 25px 35px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: .9rem;
+}
+
+#input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(42, 157, 98);
+    border-radius: 5px;
+    outline: 0;
+    padding: 20px;
+    font-size: .9rem;
+    margin: 10px 0 10px;
+}
+
+#generate-btn {
+    width: 100%;
+    background-color: rgb(42, 187, 98);
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 8px;
+    border-radius: 2px;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.img-box {
+    max-height: 0;
+    overflow: hidden;
+    animation: 5s;
+    transition: max-height 2s;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.img-box img{
+    width: 100%;
+    padding: 10px;
+}
+.img-box.show-image{
+    max-height: 300px;
+    margin: 0 auto;
+    width: 200px;
+}
+
+#generate-btn:hover {
+    background-color: rgb(42, 167, 98);
+}
+
+
+
+
